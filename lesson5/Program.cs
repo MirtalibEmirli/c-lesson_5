@@ -3,6 +3,92 @@ using lesson5.Models;
 
 
 
+while(true)
+{
+
+    Console.Clear();
+
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine("~~~~~~~~Welcome to Petshop~~~~~~~");
+    Console.ForegroundColor = ConsoleColor.White;
+    Console.WriteLine();
+    Console.WriteLine();
+    Console.WriteLine();
+
+
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine(@"
+                       [1] => Add Pet
+                       [2] => Buy pet
+                       [3] => Play with pet
+                       [4] => Give meal to pet
+                       [5] => Sleep
+                       [6] => Price
+                       [7] => All eaten meals
+                       [0] => Exit
+                      ");
+    Console.ForegroundColor = ConsoleColor.White;
+
+    int select = Convert.ToInt32(Console.ReadLine());
+
+
+    switch (select)
+	{
+		case 1:
+
+
+			break;
+
+        case 2:
+
+
+            break;
+
+        case 3:
+
+
+            break;
+
+
+        case 4:
+
+
+            break;
+
+        case 5:
+
+
+            break;
+
+        case 6:
+
+
+            break;
+        case 7:
+
+
+            break;
+        case 0:
+            Console.ForegroundColor = ConsoleColor.Magenta;
+
+            Console.WriteLine("Thank you , come again");
+            Thread.Sleep(100);
+            Console.WriteLine(":)");
+            Thread.Sleep(100);
+            Console.WriteLine(":)");
+            Thread.Sleep(100);
+            Console.WriteLine(":)");
+
+            Console.ForegroundColor = ConsoleColor.White;
+
+            return;
+
+        default:
+            Console.WriteLine("Wrong select");
+			break;
+	}
+
+}
 
 /*
  REcord frontdan backa data gonermeye
