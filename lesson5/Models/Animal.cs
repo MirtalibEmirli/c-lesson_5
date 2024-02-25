@@ -18,7 +18,7 @@ public abstract class Animal
         this.age = age;
         this.gender = gn;   
     }
-    protected Animal(string name, int age, string gn,int energy,int price,int meal)
+protected Animal(string name, int age, string gn,int energy,int price,int meal)
         :this(name,age,gn)
     {
         this.energy = energy;
@@ -70,7 +70,8 @@ public abstract class Animal
         }
     }
 
-    public abstract void show() ;
+    public abstract void Show() ;
+    public abstract void Play() ;
    public abstract void Eat();
   public abstract void Sleep ();
   public abstract void  Age();
